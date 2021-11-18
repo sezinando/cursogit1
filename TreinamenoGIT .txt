@@ -34,5 +34,10 @@ git checkout -b <nome do branch> -> Comuta criando um branch
 #Para baixar um branch 
 
 git pull origin <branch-name>
+
+# Unindo os branches 
+
+git merge <nome do branch>
+
  
 
