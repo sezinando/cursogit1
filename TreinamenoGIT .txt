@@ -1,0 +1,27 @@
+echo "# cursogit1" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/sezinando/cursogit1.git
+git push -u origin main
+
+git remote add origin https://github.com/sezinando/cursogit1.git
+git branch -M main
+git push -u origin main
+
+git status
+"git commit -a" -> Para fazer o commit (Add) apenas nos arquivos modificados
+git reset --hard   -> Realiza reset para a versão que está no repositóio do GIT 
+
+
+Criar um novo branch
+git branch <nome>
+
+
+# Deletar um Branch 
+git brench -d / --delete
+
+
+
+
