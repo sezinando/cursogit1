@@ -39,5 +39,22 @@ git pull origin <branch-name>
 git merge <nome do branch>
 
  # Retorna ao stado da última atualização
- git stash
+ git stash 
+ git stash list -> para listar todas as staches
+ git stash apply <num>
+ git stash show -p 2    
+ git stash dorop "3"
+ git stash clear 
 
+#GIT tag utilizado como checkpoint 
+git tag -a v1.1 -m "Primeira versão"
+git tag -a v1.2 -m "Segunda versão"
+
+git tag -> para listar as tags
+git show <tag> -> Para listar os detalhes  
+git checkout <tag> -> para navegar entre as tags 
+
+
+
+
+ 
