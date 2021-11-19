@@ -32,12 +32,16 @@ git checkout -b <nome do branch> -> Comuta criando um branch
 
 
 #Para baixar um branch 
-
 git pull origin <branch-name>
 
-# Unindo os branches 
 
+<<<<<<< HEAD
 git merge <nome do branch> ->  Une o branch ou seu (atualização)
+=======
+# Unindo os branches 
+git merge <nome do branch>
+>>>>>>> 4955b00b91fc9730ee6f2036870201cb182c1b26
 
- 
+ # Retorna ao stado da última atualização
+ git stash
 
