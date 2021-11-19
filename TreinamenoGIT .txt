@@ -37,7 +37,7 @@ git pull origin <branch-name>
 
 # Unindo os branches 
 
-git merge <nome do branch>
+git merge <nome do branch> ->  Une o branch ou seu (atualização)
 
  
 
