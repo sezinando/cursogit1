@@ -38,6 +38,3 @@ git pull origin <branch-name>
 # Unindo os branches 
 
 git merge <nome do branch>
-
- 
-
