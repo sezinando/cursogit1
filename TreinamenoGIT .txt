@@ -38,5 +38,6 @@ git pull origin <branch-name>
 # Unindo os branches 
 git merge <nome do branch>
 
- 
+ # Retorna ao stado da última atualização
+ git stash
 
