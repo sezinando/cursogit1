@@ -53,6 +53,7 @@ git tag -a v1.2 -m "Segunda versão"
 git tag -> para listar as tags
 git show <tag> -> Para listar os detalhes  
 git checkout <tag> -> para navegar entre as tags 
+git tag --delete <name>
 
 
 
