@@ -47,6 +47,7 @@ git merge <nome do branch>
  git stash clear 
 
 #GIT tag utilizado como checkpoint 
+*** Após realizar as alterações desejadas, realizar o commit e então criar uma tag para servir de checkpoint do processo
 git tag -a v1.1 -m "Primeira versão"
 git tag -a v1.2 -m "Segunda versão"
 
