@@ -57,6 +57,9 @@ git checkout <tag> -> para navegar entre as tags
 git tag --delete <name>
 
 
+#Comando utilizado para buscar novo branch em um repositório 
+git fetch 
+
 
 
  

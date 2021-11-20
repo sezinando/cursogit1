@@ -1,7 +1,11 @@
 arquivo do segundo branch
 
+<<<<<<< HEAD
 primeira mudança 
 
 Porque temos um novo branch
 
 temos um novo branch
+=======
+Porque temos um novo branch
+>>>>>>> novoBranch
