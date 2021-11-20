@@ -1,7 +1,3 @@
 arquivo do segundo branch
 
-<<<<<<< Updated upstream
-primeiro 1
-=======
-primeiro 2
->>>>>>> Stashed changes
+primeira mudança 
