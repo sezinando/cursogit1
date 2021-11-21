@@ -79,7 +79,10 @@ git show
  
 # ** DIF ** 
 Comando para exibir as diferenças entre  brach / arquivos 
+Se estivermos uma branch e precisar comparar com a maste (main), podemos utilizar 
+este comando para receber o contaúdo divergente
 
+git diff main 
 
 
 
