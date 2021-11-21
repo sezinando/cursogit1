@@ -61,5 +61,12 @@ git tag --delete <name>
 git fetch 
 
 
+#Modificando o servidor/provedor de git 
+git remote -v -> Verificar quais são as origens para fetch e put 
+git remote rm origin -> Removendo 
 
+git remote add origin <link> -> Para adicionar um link de git
  
+
+
+
