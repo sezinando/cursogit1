@@ -68,5 +68,12 @@ git remote rm origin -> Removendo
 git remote add origin <link> -> Para adicionar um link de git
  
 
+#submodulo -> Recurso para trabalhar com mais de um projeto em um mesmo reposotório 
+git submodule -> para verificar os submodulos existentes no repo 
+git submodule add <link> <nome>
+
+git submodule --recurse-submodules=on-demand  -> Atualizando o submodulo
+
+
 
 
