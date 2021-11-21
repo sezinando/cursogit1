@@ -74,6 +74,12 @@ git submodule add <link> <nome>
 
 git submodule --recurse-submodules=on-demand  -> Atualizando o submodulo
 
+# Comando Show -> utilizando para recedar dados sobre as alteraçãoes do git 
+git show 
+ 
+# ** DIF ** 
+Comando para exibir as diferenças entre  brach / arquivos 
+
 
 
 
