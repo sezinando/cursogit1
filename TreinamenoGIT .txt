@@ -1,0 +1,85 @@
+echo "# cursogit1" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/sezinando/cursogit1.git
+git push -u origin main
+
+git remote add origin https://github.com/sezinando/cursogit1.git
+git branch -M main
+git push -u origin main
+
+git status
+"git commit -a" -> Para fazer o commit (Add) apenas nos arquivos modificados
+git reset --hard   -> Realiza reset para a versão que está no repositóio do GIT 
+
+git commit -a -m "Descrição" ->Salva automaticamento os arquivos modificados
+git push -> Envia para o último branch "commitado"
+
+
+Criar um novo branch
+git branch <nome>
+
+
+# Deletar um Branch 
+git brench -d / --delete
+
+
+# Para comutar de branch
+git chckout <nome do branch>
+git checkout -b <nome do branch> -> Comuta criando um branch 
+
+
+#Para baixar um branch 
+git pull origin <branch-name>
+
+
+# Unindo os branches 
+git merge <nome do branch>
+
+ # Retorna ao stado da última atualização
+ git stash 
+ git stash list -> para listar todas as staches
+ git stash apply <num>
+ git stash show -p 2    
+ git stash dorop "3"
+ git stash clear 
+
+#GIT tag utilizado como checkpoint 
+*** Após realizar as alterações desejadas, realizar o commit e então criar uma tag para servir de checkpoint do processo
+git tag -a v1.1 -m "Primeira versão"
+git tag -a v1.2 -m "Segunda versão"
+
+git tag -> para listar as tags
+git show <tag> -> Para listar os detalhes  
+git checkout <tag> -> para navegar entre as tags 
+git tag --delete <name>
+
+
+#Comando utilizado para buscar novo branch em um repositório 
+git fetch 
+
+
+#Modificando o servidor/provedor de git 
+git remote -v -> Verificar quais são as origens para fetch e put 
+git remote rm origin -> Removendo 
+
+git remote add origin <link> -> Para adicionar um link de git
+ 
+
+#submodulo -> Recurso para trabalhar com mais de um projeto em um mesmo reposotório 
+git submodule -> para verificar os submodulos existentes no repo 
+git submodule add <link> <nome>
+
+git submodule --recurse-submodules=on-demand  -> Atualizando o submodulo
+
+# Comando Show -> utilizando para recedar dados sobre as alteraçãoes do git 
+git show 
+ 
+# ** DIF ** 
+Comando para exibir as diferenças entre  brach / arquivos 
+
+
+
+
