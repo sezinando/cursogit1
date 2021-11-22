@@ -85,4 +85,15 @@ este comando para receber o contaúdo divergente
 git diff main 
 
 
+# *** Comando para receber um log resumido do projeto *** 
 
+git shortlog 
+
+
+# *** Limpando arquivos não trackeados e não desejados no repositórios 
+git clean 
+
+
+# ** Otimizando o repositório 
+
+git gc (garbage collector)
